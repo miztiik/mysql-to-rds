@@ -88,7 +88,7 @@ class MySqlOnEC2Stack(core.Stack):
         # Allow Web Traffic to WebServer
         db_server.connections.allow_from_any_ipv4(
             _ec2.Port.tcp(80),
-            description="Allow Incoming MySQL Traffic"
+            description="Allow Incoming HTTP Traffic"
         )
 
         # db_server.connections.allow_internally(
