@@ -229,7 +229,7 @@ In this Workshop you will practice how to migrate your MySQLDB databases to Amaz
 
     Navigate to DMS task, under `Table Statistics` You should be able observe that the dms has copied the data from source to target database. You can connect to RDS MySQL DB and test the records using the same commands that we used with source earlier.
 
-    ![Miztiik Automation: Database Migration - MySQLDB to Amazon RDS MySQL DB](images/miztiik_architecture_mysql_to_rds_sql_db_03.png)
+    ![Miztiik Automation: Database Migration - MySQLDB to Amazon RDS MySQL DB](images/miztiik_architecture_mysql_to_rds_sql_db_01.png)
 
     _Additional Learnings:_ You can check the logs in cloudwatch for more information or increase the logging level of the database migration task.
 
