@@ -297,7 +297,7 @@ Thank you for your interest in contributing to our project. Whether it's a bug r
 [2]: https://mariadb.com/kb/en/mysqldump/
 [3]: https://linuxize.com/post/how-to-back-up-and-restore-mysql-databases-with-mysqldump/
 [4]: https://dev.mysql.com/doc/refman/8.0/en/mysqldump.html
-[5]: https://github.com/miztiik/aws-real-time-use-cases/tree/master/200-Storage-Migrate-To-DocumentDB
+[5]: https://github.com/miztiik/aws-real-time-use-cases/tree/master/200-Storage-Migrate-To-RDS-DB
 [6]: https://gist.github.com/Mins/4602864
 [100]: https://www.udemy.com/course/aws-cloud-security/?referralCode=B7F1B6C78B45ADAF77A9
 [101]: https://www.udemy.com/course/aws-cloud-security-proactive-way/?referralCode=71DC542AD4481309A441
