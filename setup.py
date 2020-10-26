@@ -9,7 +9,7 @@ setuptools.setup(
     name="mysql_to_rds",
     version="0.0.1",
 
-    description="An empty CDK Python app",
+    description="mysql-to-rds",
     long_description=long_description,
     long_description_content_type="text/markdown",
 
