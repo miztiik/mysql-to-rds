@@ -297,11 +297,13 @@ Thank you for your interest in contributing to our project. Whether it's a bug r
 
 1. [Automating mysql_secure_installation][6]
 
+1. [Amazon Database Cost Optimisation][7]
+
 ### 🏷️ Metadata
 
-**Level**: 300
+![miztiik-success-green](https://img.shields.io/badge/Miztiik:Automation:Level-300-blue)
 
-![miztiik-success-green](https://img.shields.io/badge/miztiik-success-green)
+**Level**: 300
 
 [1]: https://mariadb.com/resources/blog/installing-mariadb-10-on-centos-7-rhel-7/
 [2]: https://mariadb.com/kb/en/mysqldump/
@@ -309,6 +311,7 @@ Thank you for your interest in contributing to our project. Whether it's a bug r
 [4]: https://dev.mysql.com/doc/refman/8.0/en/mysqldump.html
 [5]: https://github.com/miztiik/aws-real-time-use-cases/tree/master/200-Storage-Migrate-To-RDS-DB
 [6]: https://gist.github.com/Mins/4602864
+[7]: https://aws.amazon.com/blogs/startups/scaling-down-your-infrastructure-part-2-cost-optimization/
 [100]: https://www.udemy.com/course/aws-cloud-security/?referralCode=B7F1B6C78B45ADAF77A9
 [101]: https://www.udemy.com/course/aws-cloud-security-proactive-way/?referralCode=71DC542AD4481309A441
 [102]: https://www.udemy.com/course/aws-cloud-development-kit-from-beginner-to-professional/?referralCode=E15D7FB64E417C547579
