@@ -19,7 +19,7 @@ We will follow an multi-stage process to accomplish our goal. We need the follow
    - Endpoints
    - Database Migration Tasks
 
-![Miztiik Automation: Database Migration - MySQLDB to Amazon RDS MySQL DB](images/miztiik_architecture_mysql_to_rds_sql_db_02.png)
+![Miztiik Automation: Database Migration - MySQLDB to Amazon RDS MySQL DB](images/miztiik_architecture_mysql_to_rds_sql_db_01.png)
 
 In this article, we will build an architecture, similar to the one shown above - A simple database running mysql(mariadb 10.2.x) instance running on EC2 _(You are welcome to use your own mysqldb instead_). For target we will build a Amazon RDS MySQL DB cluster and use DMS to migrate the data.
 
@@ -229,7 +229,7 @@ In this Workshop you will practice how to migrate your MySQLDB databases to Amaz
 
     Navigate to DMS task, under `Table Statistics` You should be able observe that the dms has copied the data from source to target database. You can connect to RDS MySQL DB and test the records using the same commands that we used with source earlier.
 
-    ![Miztiik Automation: Database Migration - MySQLDB to Amazon RDS MySQL DB](images/miztiik_architecture_mysql_to_rds_sql_db_01.png)
+    ![Miztiik Automation: Database Migration - MySQLDB to Amazon RDS MySQL DB](images/miztiik_architecture_mysql_to_rds_sql_db_03.png)
 
     _Additional Learnings:_ You can check the logs in cloudwatch for more information or increase the logging level of the database migration task.
 
@@ -240,6 +240,14 @@ In this Workshop you will practice how to migrate your MySQLDB databases to Amaz
 1.  ## 🎯 Additional Exercises
 
     - If your mysql database is small in size, you try to migrate using `mysqldump`. You can refer to this documentation[5]
+
+    - Table storage optimization: To determine how fragmented a table is in MySQL, run a query like the following, and check the results for the data_free column, which will show the free space held by the table.
+
+    ```sql
+    SELECT table_name, data_length, max_data_length, index_length, data_free
+    FROM information_schema.tables
+    WHERE table_schema='schema_name';
+    ```
 
 1)  ## 🧹 CleanUp
 
