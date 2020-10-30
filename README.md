@@ -249,6 +249,14 @@ In this Workshop you will practice how to migrate your MySQLDB databases to Amaz
     WHERE table_schema='schema_name';
     ```
 
+1.  ## 📊 📈 Performance Tips
+
+    If your table has volume transactions, > 100 tps, then you can try these,
+
+    - Create muliple replication instances
+    - Create tasks for each of the tables to be migrated
+    - Perform full load and CDC
+
 1)  ## 🧹 CleanUp
 
     If you want to destroy all the resources created by the stack, Execute the below command to delete the stack, or _you can delete the stack from console as well_
